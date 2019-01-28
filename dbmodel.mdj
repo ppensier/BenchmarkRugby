@@ -1359,13 +1359,30 @@
 											"height": 13,
 											"text": "+Test match: bool",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFojwTWkeexHQQ=",
+											"_parent": {
+												"$ref": "AAAAAAFoUe729SjVACc="
+											},
+											"model": {
+												"$ref": "AAAAAAFojwTWaueu1JQ="
+											},
+											"font": "Arial;13;0",
+											"left": 893,
+											"top": 376,
+											"width": 195.482421875,
+											"height": 13,
+											"text": "+Organisateur: str",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 888,
 									"top": 281,
 									"width": 205.482421875,
-									"height": 98
+									"height": 113
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -1378,7 +1395,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 888,
-									"top": 379,
+									"top": 394,
 									"width": 205.482421875,
 									"height": 10
 								},
@@ -1420,7 +1437,7 @@
 							"left": 888,
 							"top": 256,
 							"width": 205.482421875,
-							"height": 133,
+							"height": 148,
 							"nameCompartment": {
 								"$ref": "AAAAAAFoUe729SjQbBY="
 							},
@@ -3241,13 +3258,30 @@
 											"height": 13,
 											"text": "+Competition: Compétition",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFojv6QHeWIYQU=",
+											"_parent": {
+												"$ref": "AAAAAAFoXGx52wyCLFQ="
+											},
+											"model": {
+												"$ref": "AAAAAAFojv6P9+WFBxM="
+											},
+											"font": "Arial;13;0",
+											"left": 709,
+											"top": 275,
+											"width": 153.5498046875,
+											"height": 13,
+											"text": "+Vainqueur: Equipe",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 704,
 									"top": 225,
 									"width": 163.5498046875,
-									"height": 53
+									"height": 68
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -3260,7 +3294,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 704,
-									"top": 278,
+									"top": 293,
 									"width": 163.5498046875,
 									"height": 10
 								},
@@ -3302,7 +3336,7 @@
 							"left": 704,
 							"top": 200,
 							"width": 163.5498046875,
-							"height": 88,
+							"height": 103,
 							"nameCompartment": {
 								"$ref": "AAAAAAFoXGx52wx9uBw="
 							},
@@ -7497,7 +7531,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 793,
-									"top": 344,
+									"top": 352,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -7518,7 +7552,7 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"left": 778,
-									"top": 344,
+									"top": 352,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -7539,7 +7573,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 822,
-									"top": 345,
+									"top": 353,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -7623,7 +7657,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 793,
-									"top": 306,
+									"top": 321,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -7643,7 +7677,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 779,
-									"top": 309,
+									"top": 324,
 									"height": 13,
 									"alpha": -0.7853981633974483,
 									"distance": 40,
@@ -7663,7 +7697,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 820,
-									"top": 302,
+									"top": 317,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 25,
@@ -7707,7 +7741,7 @@
 							"tail": {
 								"$ref": "AAAAAAFoUe8XMCj5c+g="
 							},
-							"points": "808:416;808:287",
+							"points": "808:416;808:302",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFoi06dF4Ivm/Q="
@@ -8310,6 +8344,15 @@
 							},
 							"name": "Test match",
 							"type": "bool"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFojwTWaueu1JQ=",
+							"_parent": {
+								"$ref": "AAAAAAFoUe729SjNFps="
+							},
+							"name": "Organisateur",
+							"type": "str"
 						}
 					]
 				},
@@ -8865,6 +8908,17 @@
 							"name": "Competition",
 							"type": {
 								"$ref": "AAAAAAFoUe729SjNFps="
+							}
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFojv6P9+WFBxM=",
+							"_parent": {
+								"$ref": "AAAAAAFoXGx52wx3wCo="
+							},
+							"name": "Vainqueur",
+							"type": {
+								"$ref": "AAAAAAFoUe5PMih4qgw="
 							}
 						}
 					]
